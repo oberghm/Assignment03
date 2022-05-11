@@ -1,0 +1,42 @@
+html, body, #root{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+
+#root{
+    display: flex;
+    flex-direction: row;
+}
+
+.panel{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+textarea{
+    flex-grow: 1;
+    font-size: 20pt;
+}
+
+h1{
+    margin: 5px, 0;
+    font-family: sans-serif;
+}
+th, td, p, input, h3 {
+    font:15px 'Segoe UI';
+}
+table, th, td {
+    border: solid 1px #ddd;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+th {
+    font-weight:bold;
+}
